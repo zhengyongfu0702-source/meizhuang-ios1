@@ -2,7 +2,7 @@ import Foundation
 
 // MARK: - 轨迹
 
-struct Trace: Decodable, Identifiable {
+struct Trace: Codable, Identifiable {
     var time: String?
     var context: String?
 
